@@ -1,0 +1,9 @@
+.p Write a method defined 'apple' that returns true
+
+.p Write a method defined 'pear' that returns the string 'I love pears'
+
+
+= form_tag '/evaluator' do
+  = label_tag 'Code'
+  = text_area_tag 'evaluator[code]', nil, cols: 100,rows: 50
+  = submit_tag 'Evaluate'
